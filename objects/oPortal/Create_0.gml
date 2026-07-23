@@ -8,5 +8,5 @@ raio = 0;
 safeArea = false;
 
 repeat (objetivo) { 
-    instance_create_depth(random(room_width), random(room_height), depth, oItem);
+    instance_create_depth(x + 50, y - 30, depth, oItem);
 }
