@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Controller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oNPC",
+  "eventList":[],
   "managed":true,
-  "name":"Controller",
+  "name":"oNPC",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controladores",
-    "path":"folders/Controladores.yy",
+    "name":"NPC",
+    "path":"folders/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sNPC",
+    "path":"sprites/sNPC/sNPC.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

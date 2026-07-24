@@ -1,5 +1,5 @@
 draw_set_alpha(.3)
-draw_circle_colour(x, y - sprite_height / 2, raio, c_aqua, c_aqua, false);
+draw_circle_colour(x, y - sprite_height / 2, global.raio, c_aqua, c_aqua, false);
 
 draw_set_alpha(1);
 draw_self();
